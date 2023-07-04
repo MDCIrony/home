@@ -30,8 +30,10 @@
     "prettier": "2.8.8"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown --config ./package.json",
-    "src/*": "next lint"
+    "src/*": [
+      "prettier --write --ignore-unknown --config ./package.json",
+      "next lint"
+      ]
   },
   "prettier": {
     "printWidth": 100,
