@@ -30,6 +30,14 @@
     "prettier": "2.8.8"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": "prettier --write --ignore-unknown --config ./package.json"
+  },
+  "prettier": {
+    "max_line_length": 100,
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": false,
+    "singleAttributePerLine": false
   }
 }
