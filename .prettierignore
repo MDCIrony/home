@@ -1,0 +1,16 @@
+.husky
+/.next/
+/out/
+
+# production
+build/
+public
+.eslintrc.json
+.gitignore
+LICENSE
+next.config.js
+next-env.d.ts
+package.json
+package-lock.json
+postcss.config.js
+.idea/
