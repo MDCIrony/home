@@ -33,6 +33,7 @@
     "**/*": "prettier --write --ignore-unknown --config ./package.json"
   },
   "prettier": {
+    "printWidth": 100,
     "max_line_length": 100,
     "trailingComma": "es5",
     "tabWidth": 4,
