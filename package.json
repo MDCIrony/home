@@ -31,7 +31,8 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "prettier --write --ignore-unknown --config ./package.json"
+      "prettier --write --ignore-unknown --config ./package.json",
+      "npx eslint --cache --fix --ignore-path .eslintignore --config .eslintrc.json"
       ]
   },
   "prettier": {
