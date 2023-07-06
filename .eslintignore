@@ -1,7 +1,8 @@
 .husky
-/.next/
 /out/
-
+dist
+node_modules
+.next
 # production
 build/
 public
@@ -17,3 +18,7 @@ postcss.config.js
 .eslintcache
 
 !src/
+!*.ts
+!*.tsx
+!*.json
+!*.js

@@ -17,3 +17,7 @@ postcss.config.js
 .eslintcache
 
 !src/
+!*.ts
+!*.tsx
+!*.json
+!*.js
